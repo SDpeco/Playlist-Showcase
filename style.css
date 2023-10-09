@@ -1,0 +1,206 @@
+:root {
+  --album--green: #1ed760;
+  --album--purple: rgb(220, 35, 226);
+  --album--bronze: #ce8237;
+  --album--silver: rgb(201, 201, 201);
+  --album--gold: gold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-color: #747474 rgba(0, 0, 0, 0);
+  scrollbar-width: thin;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0b3251, 600px, #121212 700px);
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  min-width: 720px;
+  height: 30%;
+  min-height: 250px;
+  max-height: 250px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: -10px;
+}
+
+.header-content {
+  position: relative;
+  width: 100%;
+  min-width: 720px;
+  height: 100%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-image-container {
+  display: inline-block;
+  width: 200px;
+  height: 80%;
+  margin: 20px 0 20px 20px;
+}
+
+.header-image {
+  width: 200;
+  height: 100%;
+  box-shadow: -1px 2px 12px rgb(0, 0, 0);
+  border-radius: 14px;
+}
+
+.header-textbox {
+  display: inline-block;
+  width: 60vw;
+  min-width: 430px;
+  height: 80%;
+  margin-top: 20px;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+.album-title {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: calc(0.8vw + 28px);
+  margin: 0;
+  padding: 0;
+}
+
+.album-artist {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: calc(0.3vw + 20px);
+  margin: 0;
+  padding: 0;
+}
+
+.fa-arrow-up-right-from-square {
+  position: absolute;
+  bottom: 15%;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+}
+
+.fa-arrow-up-right-from-square:hover {
+  color: white;
+}
+
+.flavor {
+  position: absolute;
+  bottom: 13%;
+  left: 275px;
+  color: rgb(172, 172, 172);
+  font-family: "Montserrat", sans-serif;
+}
+
+.green-flavor {
+  color: var(--album--green);
+}
+.purple-flavor {
+  color: var(--album--purple);
+}
+
+.bronze-flavor {
+  color: var(--album--bronze);
+}
+
+.silver-flavor {
+}
+
+.gold-flavor {
+  color: var(--album--gold);
+}
+
+.content {
+  width: 100vw;
+  min-width: 720px;
+  height: 80%;
+  min-height: 500px;
+  margin: auto;
+  margin-bottom: 0px;
+  background-color: rgba(12, 12, 12, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid #124b7a;
+  scrollbar-color: rgba(255, 255, 255, 0.1) rgba(0, 0, 0, 0);
+  scrollbar-width: thin;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.grid-container {
+  display: grid;
+  width: 98%;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(calc(180px - 40px), 1fr));
+  gap: 6px;
+}
+
+.grid-item {
+  box-sizing: border-box;
+  width: 140px;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  z-index: 1;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.grid-item:hover {
+  border-radius: 14px;
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.green-album {
+  border: 2px solid var(--album--green);
+}
+.purple-album {
+  border: 2px solid var(--album--purple);
+}
+
+.bronze-album {
+  border: 2px solid #cd7f32;
+}
+
+.silver-album {
+}
+
+.gold-album {
+  border: 2px solid gold;
+}
+
+.album-selected {
+  border: 2px solid;
+  border-image: linear-gradient(135deg, #6bdbdb, #124b7a) 10;
+  transform: scale(1);
+  cursor: default;
+  z-index: 0;
+}
+
+.album-selected:hover {
+  transform: scale(1);
+  border-radius: 0;
+}

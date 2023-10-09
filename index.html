@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Playlist Showcase</title>
+  </head>
+  <body id="background">
+    <div class="header">
+      <div class="header-content" data-header-container>
+        <div class="header-image-container">
+          <img class="header-image" src="" data-header-image />
+          <canvas id="colorCanvas" width="1" height="1"></canvas>
+        </div>
+        <div class="header-textbox">
+          <h1 class="album-title" data-album-title></h1>
+          <h1 class="album-artist" data-album-artist></h1>
+          <a href="" target="_blank" data-album-link>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <span class="flavor" data-flavor></span>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="grid-container" data-grid></div>
+    </div>
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d0ada26f2b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
