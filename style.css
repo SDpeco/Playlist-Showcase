@@ -139,7 +139,7 @@ body {
 .content {
   width: 100%;
   min-width: 720px;
-  height: 80%;
+  height: 100%;
   margin: auto;
   margin-bottom: 0px;
   background-color: rgba(12, 12, 12, 0.3);
