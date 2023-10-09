@@ -154,7 +154,6 @@ body {
 }
 
 .grid-container {
-  background-color: yellow;
   display: grid;
   width: 98%;
   margin: auto;
