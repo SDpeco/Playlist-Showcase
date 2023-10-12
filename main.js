@@ -5,6 +5,8 @@ const albumAtist = document.querySelector("[data-album-artist]");
 const headerContainer = document.querySelector("[data-header-container]");
 const albumLink = document.querySelector("[data-album-link]");
 const albumFlavor = document.querySelector("[data-flavor]");
+const buttons = document.querySelectorAll("[data-btn]");
+const buttonGlows = document.querySelectorAll("[data-glow]");
 
 const greenFlavor = "It do be bopping.";
 const purpleFlavor = "Quite interesting, give it a listen.";
@@ -46,6 +48,7 @@ fetch("./albums.json")
           newGridElement.classList.add("purple-album");
           break;
         default:
+          newGridElement.classList.add("regular-album");
       }
 
       newGridElement.src = data.albums[i].image;
@@ -97,4 +100,45 @@ fetch("./albums.json")
 
       grid.appendChild(newGridElement);
     }
+    buttonInit(grid);
   });
+
+function buttonInit(grid) {
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", (event) => {
+      let selectedBtn = document.getElementsByClassName("selected-btn")[0];
+      let selectedGlow = document.getElementsByClassName("selected-glow")[0];
+      if (event.target != selectedBtn) {
+        selectedBtn.classList.remove("selected-btn");
+        selectedGlow.classList.remove("selected-glow");
+        event.target.classList.add("selected-btn");
+        btnType = event.target.classList[1];
+        let target = "";
+
+        switch (btnType) {
+          case "regular-btn":
+            target = "regular-album";
+            buttonGlows[0].classList.add("selected-glow");
+            break;
+          case "green-btn":
+            target = "green-album";
+            buttonGlows[1].classList.add("selected-glow");
+            break;
+          case "purple-btn":
+            target = "purple-album";
+            buttonGlows[2].classList.add("selected-glow");
+        }
+
+        for (let i = 0; i < grid.children.length; i++) {
+          gridItem = grid.children[i];
+          gridItem.classList.remove("hidden");
+          if (target != gridItem.classList[2]) {
+            if (target != "regular-album") {
+              gridItem.classList.add("hidden");
+            }
+          }
+        }
+      }
+    });
+  }
+}

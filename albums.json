@@ -1,6 +1,48 @@
 {
   "albums": [
     {
+      "name": "The New Age",
+      "artist": "Onion666 - Feat. Odd Pike, Aztriix",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bfbb18e3fd3ffe477e3e4df7",
+      "link": "https://open.spotify.com/album/7LF9pYvIWfoZ5qQQrAqMIf",
+      "highlight": ""
+    },
+    {
+      "name": "DEADSPACE",
+      "artist": "DEADCITIZEN & Fragmented space",
+      "image": "https://i.scdn.co/image/ab67616d0000b27382f9921bd901d9a6559c08b4",
+      "link": "https://open.spotify.com/album/5ytwjiYIk4frDWWAl1kyqx",
+      "highlight": ""
+    },
+    {
+      "name": "REJUVENATOR",
+      "artist": "SXDSHXWTY - Feat. vmrrobotic, SeyNoe, TURQUOISEDEATH",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347bce18d06be3e5e35ec5df1",
+      "link": "https://open.spotify.com/album/67DrxB9tl3ixM5tuaBQ7mY",
+      "highlight": ""
+    },
+    {
+      "name": "tifutrance",
+      "artist": "Tfwamirite",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a1d15cd81be0c3f88b8eca95",
+      "link": "https://open.spotify.com/album/3hsfXHLUkapAJnVjJYcvG6",
+      "highlight": ""
+    },
+    {
+      "name": "Nothing Nu",
+      "artist": "rehirable",
+      "image": "https://i.scdn.co/image/ab67616d0000b273557923657907131e1424a517",
+      "link": "https://open.spotify.com/album/0A7s8A36ZWtncWApJLA7YX",
+      "highlight": "purple"
+    },
+    {
+      "name": "The Taste of Food Is My Reason for Living",
+      "artist": "Lil Kevo 303",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ce8f2349dc5595a06f9ea614",
+      "link": "https://open.spotify.com/album/1BWm6e51ExFvJMeTJ3fENH",
+      "highlight": ""
+    },
+    {
       "name": "save room",
       "artist": "optic core - Feat. shamana, Age, Shiro",
       "image": "https://i.scdn.co/image/ab67616d0000b27309e964f97070e75a0f3f69a6",
@@ -131,7 +173,7 @@
       "artist": "Pipotaku",
       "image": "https://i.scdn.co/image/ab67616d0000b273e170a82263ad5d97cdc8eed9",
       "link": "https://open.spotify.com/album/3nAcW6u08r1F3I6UwHZ0TF",
-      "highlight": "purple"
+      "highlight": "green"
     },
     {
       "name": "Hazardous Bubble Basics",

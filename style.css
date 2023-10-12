@@ -26,7 +26,7 @@ body {
   padding: 0;
   background: linear-gradient(
     to bottom,
-    #3c8fd3 -500px,
+    #3c8fd3 -600px,
     #0b3251,
     600px,
     #121212 650px
@@ -101,7 +101,7 @@ body {
 
 .fa-arrow-up-right-from-square {
   position: absolute;
-  bottom: 15%;
+  bottom: 16%;
   color: rgba(255, 255, 255, 0.6);
   font-size: 20px;
 }
@@ -112,7 +112,7 @@ body {
 
 .flavor {
   position: absolute;
-  bottom: 13%;
+  bottom: 15%;
   left: 275px;
   color: rgb(172, 172, 172);
   font-family: "Montserrat", sans-serif;
@@ -153,14 +153,85 @@ body {
   overflow-x: hidden;
 }
 
+.sorters-container {
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+
+.sorter-btn-container {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 1px;
+  padding-top: 6px;
+  margin-right: 5px;
+}
+
+.selected-glow {
+  background: linear-gradient(
+    0deg,
+    rgb(107, 219, 219, 0.6),
+    rgb(18, 75, 122, 0) 40%
+  );
+}
+
+.sorter-btn {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  filter: brightness(125%);
+  transition: filter 0.2s ease-in;
+  z-index: 2;
+}
+
+.regular-btn {
+  background-color: gray;
+}
+
+.green-btn {
+  background-color: var(--album--green);
+}
+
+.purple-btn {
+  background-color: var(--album--purple);
+}
+
+.sorter-btn:hover {
+  filter: brightness(100%);
+}
+
+.selected-btn {
+  filter: brightness(100%);
+}
+
+.selected-btn:hover {
+  filter: brightness(100%);
+}
+
+.content-separator {
+  background: linear-gradient(
+    to right,
+    rgb(128, 128, 128, 1) 5%,
+    rgb(255, 255, 255, 0) 70%
+  );
+  width: 50%;
+  height: 1px;
+  margin-left: 20px;
+}
+
 .grid-container {
   display: grid;
   width: 98%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-right: 20px;
   margin-left: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(calc(180px - 40px), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(calc(180px - 40px), 1fr));
   gap: 6px;
 }
 
@@ -210,4 +281,11 @@ body {
 .album-selected:hover {
   transform: scale(1);
   border-radius: 0;
+}
+
+.regular-album {
+}
+
+.hidden {
+  display: none;
 }
