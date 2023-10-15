@@ -1,6 +1,69 @@
 {
   "albums": [
     {
+      "name": "im lost in a neverending dream",
+      "artist": "AKIBA",
+      "image": "https://i.scdn.co/image/ab67616d0000b273460d63ccd30e0cf854ed469a",
+      "link": "https://open.spotify.com/album/5LhJziay2LhxujQ0HsvSlk",
+      "highlight": ""
+    },
+    {
+      "name": "「DIGITAL TWIN」",
+      "artist": "Blksmiith",
+      "image": "https://i.scdn.co/image/ab67616d0000b273391d3464b0792e6a7cc885eb",
+      "link": "https://open.spotify.com/album/1JjcGFfD4KGiG6m1mOgxnq",
+      "highlight": "green"
+    },
+    {
+      "name": "CTRL No. 1",
+      "artist": "KENTENSHI",
+      "image": "https://i.scdn.co/image/ab67616d0000b27346acd1d26d630fe8de767197",
+      "link": "https://open.spotify.com/album/1kVDktvG05msC5Nmx8Grvz",
+      "highlight": "purple"
+    },
+    {
+      "name": "null.exe",
+      "artist": "bleach.bath",
+      "image": "https://i.scdn.co/image/ab67616d0000b273deb64a841dc297f3fcd2b94c",
+      "link": "https://open.spotify.com/album/3WJozIqVWzjmX7byWF9Eaq",
+      "highlight": ""
+    },
+    {
+      "name": "ORCA",
+      "artist": "LVCA LEON - Feat. Cvmpliant, SXDSHXWTY, Yung Lain, ByteMapper, KENTENSHI, Skizmo, Egofear, LYFE4M, Boys Hotel, POSITIVE+, dracodraco, FlowerBoyDeMii",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735288e9afc0bba82d68eadf25",
+      "link": "https://open.spotify.com/album/7uVFxGC4tOx6OKnLYvHUvW",
+      "highlight": ""
+    },
+    {
+      "name": "starbloom",
+      "artist": "Elicit",
+      "image": "https://i.scdn.co/image/ab67616d0000b273854be8b07d52fd66fd3b64e6",
+      "link": "https://open.spotify.com/album/5nbqeGFq9N3DJdWURu0SDV",
+      "highlight": ""
+    },
+    {
+      "name": "TillDeath, Vol. 1",
+      "artist": "GermsNightmare - Feat. Cmoe",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730737a58a382ade1dbe83da58",
+      "link": "https://open.spotify.com/album/2BgZV9VfzWAXnCmXgnHhpt",
+      "highlight": ""
+    },
+    {
+      "name": "fragments of subconscious",
+      "artist": "vmrrobotic",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d8fd52ca236937c32c6b2146",
+      "link": "https://open.spotify.com/album/4JJDdioWJ1HSDJecjXcLkX",
+      "highlight": "green"
+    },
+    {
+      "name": "Digital Rain",
+      "artist": "yion - Feat. Folded Voices, Full Body 2",
+      "image": "https://i.scdn.co/image/ab67616d0000b27384cf2d4385d7d9018adfefd5",
+      "link": "https://open.spotify.com/album/05vH0kBBw8uNQQPLwCMFpH",
+      "highlight": ""
+    },
+    {
       "name": "The New Age",
       "artist": "Onion666 - Feat. Odd Pike, Aztriix",
       "image": "https://i.scdn.co/image/ab67616d0000b273bfbb18e3fd3ffe477e3e4df7",

@@ -15,6 +15,7 @@ html {
   scrollbar-width: thin;
   margin: 0;
   padding: 0;
+  background-color: #121212;
 }
 
 body {
@@ -147,10 +148,7 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid #124b7a;
-  scrollbar-color: rgba(255, 255, 255, 0.1) rgba(0, 0, 0, 0);
-  scrollbar-width: thin;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .sorters-container {
@@ -172,8 +170,8 @@ body {
 .selected-glow {
   background: linear-gradient(
     0deg,
-    rgb(107, 219, 219, 0.6),
-    rgb(18, 75, 122, 0) 40%
+    rgb(255, 255, 255, 0.2),
+    rgb(255, 255, 255, 0) 40%
   );
 }
 
@@ -190,15 +188,18 @@ body {
 }
 
 .regular-btn {
-  background-color: gray;
+  border: 2px solid gray;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .green-btn {
-  background-color: var(--album--green);
+  border: 2px solid var(--album--green);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .purple-btn {
-  background-color: var(--album--purple);
+  border: 2px solid var(--album--purple);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .sorter-btn:hover {
@@ -207,6 +208,8 @@ body {
 
 .selected-btn {
   filter: brightness(100%);
+  background: linear-gradient(-45deg, rgb(107, 219, 219), rgb(18, 75, 122));
+  border-color: rgb(107, 219, 219);
 }
 
 .selected-btn:hover {
@@ -225,12 +228,21 @@ body {
 }
 
 .grid-container {
+  width: 99%;
+  height: 80%;
+  margin-top: 20px;
+  padding-top: 20px;
+  scrollbar-color: rgba(255, 255, 255, 0.1) rgba(0, 0, 0, 0);
+  scrollbar-width: thin;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.grid {
   display: grid;
-  width: 98%;
-  margin: auto;
-  margin-top: 25px;
-  margin-right: 20px;
   margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   grid-template-columns: repeat(auto-fill, minmax(calc(180px - 40px), 1fr));
   gap: 6px;
 }
