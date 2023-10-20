@@ -1,6 +1,69 @@
 {
   "albums": [
     {
+      "name": "<DREAM//GATE>",
+      "artist": "dissectedRen",
+      "image": "https://i.scdn.co/image/ab67616d0000b27315005f4ae9147b4c3e5318cd",
+      "link": "https://open.spotify.com/album/2NJrSi5cD6oCpMzYtzmYX8",
+      "highlight": ""
+    },
+	{
+      "name": "Overdrive Dreams",
+      "artist": "Ftlframe",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e6379c38cfedf4c285455160",
+      "link": "https://open.spotify.com/album/319CN0ikEgGJfiYuJofixh",
+      "highlight": "green"
+    },
+	{
+      "name": "Se Bueno",
+      "artist": "TURQUOISEDEATH - Feat. BrokenTeeth, 2 0 2 1, Asian Glowm, Parannoul, Astrophysics",
+      "image": "https://i.scdn.co/image/ab67616d0000b27353f1a9216a3b3212d0784afe",
+      "link": "https://open.spotify.com/album/4I3293GUwLNbIbi5xv1XbO",
+      "highlight": ""
+    },
+	{
+      "name": "Status Quo",
+      "artist": "LOMAJI",
+      "image": "https://i.scdn.co/image/ab67616d0000b273809573dc4016330fa870e031",
+      "link": "https://open.spotify.com/album/4KBF3r3LiYDMKDVE8eG2yz",
+      "highlight": ""
+    },
+	{
+      "name": "PROGRAM ALPHA",
+      "artist": "Star Trash - Feat. Daikan",
+      "image": "https://i.scdn.co/image/ab67616d0000b27374dc3a5480661ff4798b5e7d",
+      "link": "https://open.spotify.com/album/4Y8EUWoqpGaCGd5fY8aEp8",
+      "highlight": ""
+    },
+	{
+      "name": "SPECTER",
+      "artist": "SPXRXT - Feat. Star Trash, jinkasei, hxly xo, JVNLIII",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bd7b9cde0a120515b81dbefe",
+      "link": "https://open.spotify.com/album/0Z5bfevxC1lWWwqcYcozV4",
+      "highlight": ""
+    },
+	{
+      "name": "virtual escapism",
+      "artist": "vahybz",
+      "image": "https://i.scdn.co/image/ab67616d0000b273512a6c39e121719ff3af4d56",
+      "link": "https://open.spotify.com/album/1VFCG5JZskIrWeVdUs5oER",
+      "highlight": "purple"
+    },
+	{
+      "name": "ueno sundown sessions vol. 1",
+      "artist": "jinkasei - Feat. SPURME, Star Trash, sevnce",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f7765e768fc307587797ac45",
+      "link": "https://open.spotify.com/album/5lbAFQ8NSopoCDfHeG8Us7",
+      "highlight": ""
+    },
+    {
+      "name": "GENESIS",
+      "artist": "Nedaj - Feat. Sadbalmain, amore",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738b2d1d74a5975eee4bd724bf",
+      "link": "https://open.spotify.com/album/1egf6sduxPOZEfnHzxWngA",
+      "highlight": ""
+    },
+    {
       "name": "im lost in a neverending dream",
       "artist": "AKIBA",
       "image": "https://i.scdn.co/image/ab67616d0000b273460d63ccd30e0cf854ed469a",
@@ -226,7 +289,7 @@
     },
     {
       "name": "Dopamine Online",
-      "artist": "TOKYOPILL - Feat. nedaj, Lonestar Void",
+      "artist": "TOKYOPILL - Feat. Nedaj, Lonestar Void",
       "image": "https://i.scdn.co/image/ab67616d0000b27348b4c0a7f0be25b3b1c7f2c1",
       "link": "https://open.spotify.com/album/5Hx9W5V7viFmynxJrnYcGf",
       "highlight": "green"
