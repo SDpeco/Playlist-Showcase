@@ -1,6 +1,69 @@
 {
   "albums": [
     {
+      "name": "interlinked.mp3",
+      "artist": "eternalrain.mp3 - Feat. TURQUOISEDEATH, SXDSHXWTY, Yung Lain, vmrrobotic",
+      "image": "https://i.scdn.co/image/ab67616d0000b27310c3241e075e20094b4c7283",
+      "link": "https://open.spotify.com/album/293LODuWeCRu4em5DdXfs2",
+      "highlight": "green"
+    },
+    {
+      "name": "progression breaks",
+      "artist": "disctr4k & fusoxide & DJ 2K3",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ba7d7295b23ab7f819935527",
+      "link": "https://open.spotify.com/album/321AuW5KKIzgmf58nmnE3L",
+      "highlight": ""
+    },
+    {
+      "name": "CYBERNETIC JUMP",
+      "artist": "Trashiii",
+      "image": "https://i.scdn.co/image/ab67616d0000b27354a6391cf3b3e62b6a28a450",
+      "link": "https://open.spotify.com/album/08IJhulys8qB3YUh5AIWlW",
+      "highlight": ""
+    },
+    {
+      "name": "Self Destruction Under Disguise Of Accidents",
+      "artist": "TheAster",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736390ff7fb1e23ce9aa268e13",
+      "link": "https://open.spotify.com/album/2e5Zv9QodGYHT2mP6God5l",
+      "highlight": ""
+    },
+    {
+      "name": "Voidcore",
+      "artist": "SPURME - Feat. TheAster, Black Jacket, jskt",
+      "image": "https://i.scdn.co/image/ab67616d0000b27348c51b8b769f704eae15ac37",
+      "link": "https://open.spotify.com/album/0UBmYvQQGLAv7kghfk5FQy",
+      "highlight": ""
+    },
+    {
+      "name": "for a while",
+      "artist": "eightiesheadachetape",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c59af5480f7564c624c8c95e",
+      "link": "https://open.spotify.com/album/5qrlcvSfVekFSErw48sV2u",
+      "highlight": "purple"
+    },
+    {
+      "name": "D-R-O-W-N",
+      "artist": "POSITIVE+ - Feat. LVCA LEON, Egofear",
+      "image": "https://i.scdn.co/image/ab67616d0000b273feb4714f51f133e031bf24c7",
+      "link": "https://open.spotify.com/album/19esq9bVpFo9IiVHAmzvEw",
+      "highlight": "green"
+    },
+    {
+      "name": "Cubra",
+      "artist": "Cubenssi - Feat. SPURME, TheAster",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c4394afe07b256e1a50f3f5f",
+      "link": "https://open.spotify.com/album/24X9s0KiAiL9x54CBfjhdm",
+      "highlight": ""
+    },
+    {
+      "name": "YOUALLAREME3",
+      "artist": "Circle of Dolls",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fa07d337772c7ae138f2cb28",
+      "link": "https://open.spotify.com/album/3qhGfGDo5lTfvklNejBp2n",
+      "highlight": ""
+    },
+    {
       "name": "&#60;DREAM//GATE&#62;",
       "artist": "dissectedRen",
       "image": "https://i.scdn.co/image/ab67616d0000b27315005f4ae9147b4c3e5318cd",
