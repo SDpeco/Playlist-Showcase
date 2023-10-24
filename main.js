@@ -10,6 +10,7 @@ const buttonGlows = document.querySelectorAll("[data-glow]");
 
 const greenFlavor = "It do be bopping.";
 const purpleFlavor = "Quite interesting, give it a listen.";
+const goldFlavor = "It's interesting AND it bops.";
 
 let previousEvent = null;
 
@@ -47,6 +48,8 @@ fetch("./albums.json")
         case "purple":
           newGridElement.classList.add("purple-album");
           break;
+        case "gold":
+          newGridElement.classList.add("gold-album");
         default:
           newGridElement.classList.add("regular-album");
       }
@@ -84,6 +87,10 @@ fetch("./albums.json")
             albumFlavor.classList.add("purple-flavor");
             albumFlavor.innerHTML = purpleFlavor;
             break;
+          case "gold":
+            headerImage.classList.add("gold-album");
+            albumFlavor.classList.add("gold-flavor");
+            albumFlavor.innerHTML = goldFlavor;
         }
 
         if (previousEvent != null) {
@@ -106,11 +113,16 @@ fetch("./albums.json")
 function buttonInit(grid) {
   for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", (event) => {
-      let selectedBtn = document.getElementsByClassName("selected-btn")[0];
+      let selectedBtn = document.getElementsByClassName("selected-btn")[0]
+        ? document.getElementsByClassName("selected-btn")[0]
+        : "none";
       let selectedGlow = document.getElementsByClassName("selected-glow")[0];
       if (event.target != selectedBtn) {
-        selectedBtn.classList.remove("selected-btn");
-        selectedGlow.classList.remove("selected-glow");
+        if (selectedBtn != "none") {
+          selectedBtn.classList.remove("selected-btn");
+          selectedGlow.classList.remove("selected-glow");
+        }
+
         event.target.classList.add("selected-btn");
         btnType = event.target.classList[1];
         let target = "";
@@ -127,16 +139,27 @@ function buttonInit(grid) {
           case "purple-btn":
             target = "purple-album";
             buttonGlows[2].classList.add("selected-glow");
+            break;
+          case "gold-btn":
+            target = "gold-album";
+            buttonGlows[3].classList.add("selected-glow");
+            break;
+          case "none":
         }
 
         for (let i = 0; i < grid.children.length; i++) {
           gridItem = grid.children[i];
           gridItem.classList.remove("hidden");
           if (target != gridItem.classList[2]) {
-            if (target != "regular-album") {
-              gridItem.classList.add("hidden");
-            }
+            gridItem.classList.add("hidden");
           }
+        }
+      } else {
+        selectedBtn.classList.remove("selected-btn");
+        selectedGlow.classList.remove("selected-glow");
+        for (let i = 0; i < grid.children.length; i++) {
+          gridItem = grid.children[i];
+          gridItem.classList.remove("hidden");
         }
       }
     });

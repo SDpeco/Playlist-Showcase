@@ -1,8 +1,6 @@
 :root {
   --album--green: #1ed760;
   --album--purple: rgb(220, 35, 226);
-  --album--bronze: #ce8237;
-  --album--silver: rgb(201, 201, 201);
   --album--gold: gold;
 }
 
@@ -126,13 +124,6 @@ body {
   color: var(--album--purple);
 }
 
-.bronze-flavor {
-  color: var(--album--bronze);
-}
-
-.silver-flavor {
-}
-
 .gold-flavor {
   color: var(--album--gold);
 }
@@ -152,7 +143,7 @@ body {
 }
 
 .sorters-container {
-  width: 200px;
+  width: auto;
   height: 40px;
   margin-top: 20px;
   margin-left: 23px;
@@ -202,6 +193,11 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.gold-btn {
+  border: 2px solid var(--album--gold);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .sorter-btn:hover {
   filter: brightness(100%);
 }
@@ -214,6 +210,10 @@ body {
 
 .selected-btn:hover {
   filter: brightness(100%);
+}
+
+.unsort-btn:hover {
+  color: white;
 }
 
 .content-separator {
@@ -267,19 +267,13 @@ body {
 .green-album {
   border: 2px solid var(--album--green);
 }
+
 .purple-album {
   border: 2px solid var(--album--purple);
 }
 
-.bronze-album {
-  border: 2px solid #cd7f32;
-}
-
-.silver-album {
-}
-
 .gold-album {
-  border: 2px solid gold;
+  border: 2px solid var(--album--gold);
 }
 
 .album-selected {
@@ -293,9 +287,6 @@ body {
 .album-selected:hover {
   transform: scale(1);
   border-radius: 0;
-}
-
-.regular-album {
 }
 
 .hidden {
