@@ -1,6 +1,90 @@
 {
   "albums": [
     {
+      "name": "We'll Find a Home Where We Can Be Free Together",
+      "artist": "Hero Apparition",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e2fab71b8c8ede5ead73d259",
+      "link": "https://open.spotify.com/album/2qZaSgalX602ZZtlgyxBOU",
+      "highlight": ""
+    },
+    {
+      "name": "Auditory Self-Harm",
+      "artist": "Cooldown Reduction",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e630541e2d3c847be2a91e6b",
+      "link": "https://open.spotify.com/album/6gsw8SHgOmAIbbJZxcKnUA",
+      "highlight": ""
+    },
+    {
+      "name": "Sepulchral",
+      "artist": "Equinox7",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bc95528abfe65334d99e7991",
+      "link": "https://open.spotify.com/album/1XM5LwSjYm9YCaxvguXY1R",
+      "highlight": "purple"
+    },
+    {
+      "name": "The Physiognomy Of Dreams",
+      "artist": "odaxelagnia",
+      "image": "https://i.scdn.co/image/ab67616d0000b27376b7a119af2ecfcd56c57925",
+      "link": "https://open.spotify.com/album/7rUKw6RHJcH779pSGNwelJ",
+      "highlight": ""
+    },
+    {
+      "name": "Suzumebachi Trax 2",
+      "artist": "CDR - Feat. Todapark",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735f6247d581f3bcdd04ab7921",
+      "link": "https://open.spotify.com/album/6BsDpNnDbG2XzOF1X1D283",
+      "highlight": ""
+    },
+    {
+      "name": "ABYSS CHASERS: TWILIGHT REQUIEM",
+      "artist": "Casper Mcfadden & MANAPOOL",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cd6ea1aa8982bfd88091dd4a",
+      "link": "https://open.spotify.com/album/2x39ZW97CG7oNL3xJRDUWr",
+      "highlight": ""
+    },
+    {
+      "name": "ORENDA",
+      "artist": "Revin",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a89b51f00d708c4454318b08",
+      "link": "https://open.spotify.com/album/5kdNpOmxHmMyYJOvhJP7qu",
+      "highlight": ""
+    },
+    {
+      "name": "GO FAST GO QUICK",
+      "artist": "slezyorla",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e11f8f42d9f6190890790bc8",
+      "link": "https://open.spotify.com/album/46aZyWZZkZi1kQFqvMGzw4",
+      "highlight": ""
+    },
+    {
+      "name": "feel it all",
+      "artist": "wearingyourlove",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bbf135dfedb01d18aaa1a4b2",
+      "link": "https://open.spotify.com/album/0gnjVEUvumLKFmI8WcCAM0",
+      "highlight": "green"
+    },
+    {
+      "name": "Yameapolis",
+      "artist": "Skizmo",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fdd4e4f49659e236877a0156",
+      "link": "https://open.spotify.com/album/5FGBupodN2jjhEO8EQhstA",
+      "highlight": ""
+    },
+    {
+      "name": "greywater / loveletter",
+      "artist": "med111cen",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f044443e8b0a0a1bfb7b98b4",
+      "link": "https://open.spotify.com/album/6A6zH5CjrhtQFe9tjOD8T1",
+      "highlight": ""
+    },
+    {
+      "name": "goodbye in 9 minutes",
+      "artist": "Skeinn",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ee796fb14265b547abfeaaa4",
+      "link": "https://open.spotify.com/album/7sMe9ii6H6Yygrx1WEqnVI",
+      "highlight": "green"
+    },
+    {
       "name": "interlinked.mp3",
       "artist": "eternalrain.mp3 - Feat. TURQUOISEDEATH, SXDSHXWTY, Yung Lain, vmrrobotic",
       "image": "https://i.scdn.co/image/ab67616d0000b27310c3241e075e20094b4c7283",
