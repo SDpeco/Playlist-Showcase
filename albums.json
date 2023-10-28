@@ -1,6 +1,90 @@
 {
   "albums": [
     {
+      "name": "Hope Lost",
+      "artist": "Jacksonifyer",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737833bb71fc31bafb76a10fb8",
+      "link": "https://open.spotify.com/album/7MgKUMFAF55BX7vvfPeyFn",
+      "highlight": ""
+    },
+    {
+      "name": "ESSO GAS STATION",
+      "artist": "SAGEISKAMI",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737be35a8e8d355e25a16787ab",
+      "link": "https://open.spotify.com/album/07RJeGHGofUEapExSsz7yf",
+      "highlight": ""
+    },
+    {
+      "name": "sidefx",
+      "artist": "blottter",
+      "image": "https://i.scdn.co/image/ab67616d0000b27312b18342b4e30cc392529c0f",
+      "link": "https://open.spotify.com/album/70HrhBiTKVNDYzc8dp2LLP",
+      "highlight": "green"
+    },
+    {
+      "name": "MOPEY POPO",
+      "artist": "3mouth",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732e20a79215332beb1eb8d4fa",
+      "link": "https://open.spotify.com/album/21lE041QsBDedFj1krB8wV",
+      "highlight": ""
+    },
+    {
+      "name": "Inner",
+      "artist": "Heatace",
+      "image": "https://i.scdn.co/image/ab67616d0000b273880a6c1c04c4892935201dcd",
+      "link": "https://open.spotify.com/album/0CiekM9pijdSdtNSvPb668",
+      "highlight": ""
+    },
+    {
+      "name": "It's Going!",
+      "artist": "nohpetS - Feat. Knack, CID TSUO, Lord Sledge",
+      "image": "https://i.scdn.co/image/ab67616d0000b27394227768645305450a4ccd21",
+      "link": "https://open.spotify.com/album/7GhBw4Dpe3Nc5hxHYVI3jD",
+      "highlight": ""
+    },
+    {
+      "name": "Oxytocin",
+      "artist": "Jeron Braxton",
+      "image": "https://i.scdn.co/image/ab67616d0000b27379cf5bacfe3f8b1e1c476d14",
+      "link": "https://open.spotify.com/album/7vaPs1adKVen3RNcszg9aA",
+      "highlight": ""
+    },
+    {
+      "name": "Prfct!cha0\",",
+      "artist": "Perfect Chao",
+      "image": "https://i.scdn.co/image/ab67616d0000b27379d1e017c8cc9ca8cec1e889",
+      "link": "https://open.spotify.com/album/0Pn362e9TKTFrFTskyjUFr",
+      "highlight": ""
+    },
+    {
+      "name": "twilight princess",
+      "artist": "Yesterdayneverhappened - Feat. Mehki Raine",
+      "image": "https://i.scdn.co/image/ab67616d0000b27303b9189551e1bf4359d1ca65",
+      "link": "https://open.spotify.com/album/5inmxPZxsMZIq9GJRJEQtg",
+      "highlight": "purple"
+    },
+    {
+      "name": "it won't be long...",
+      "artist": "whitelight",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e7ee27ffd8a32ef5b2841422",
+      "link": "https://open.spotify.com/album/5xZYtXkryfw9ZUvVe00DFh",
+      "highlight": ""
+    },
+    {
+      "name": "have you ever thought about moving to another planet",
+      "artist": "dokxid - Feat. temathy, Andy pls, Yem",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738d984dbf6c0a763829fba451",
+      "link": "https://open.spotify.com/album/7ag2Wd1V8oECSRLcMRG7TU",
+      "highlight": ""
+    },
+    {
+      "name": "Dissociatives",
+      "artist": "ZenithLights",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730bc4fc188d78407929abc39e",
+      "link": "https://open.spotify.com/album/79i6ZOFZlNHThoZ8xlEHS1",
+      "highlight": ""
+    },
+    {
       "name": "We'll Find a Home Where We Can Be Free Together",
       "artist": "Hero Apparition",
       "image": "https://i.scdn.co/image/ab67616d0000b273e2fab71b8c8ede5ead73d259",
@@ -19,7 +103,7 @@
       "artist": "Equinox7",
       "image": "https://i.scdn.co/image/ab67616d0000b273bc95528abfe65334d99e7991",
       "link": "https://open.spotify.com/album/1XM5LwSjYm9YCaxvguXY1R",
-      "highlight": "purple"
+      "highlight": "gold"
     },
     {
       "name": "The Physiognomy Of Dreams",
@@ -327,7 +411,7 @@
       "artist": "Eldia - Feat. UNIT KAI, Reinabe, Iphi, Age, optic core, ddertbag, Shiro, Dazegxd, cansino",
       "image": "https://i.scdn.co/image/ab67616d0000b273f7b3552a1fa0983fdfac5597",
       "link": "https://open.spotify.com/album/3WYrsag9YxCzgt3GU8mon5",
-      "highlight": "green"
+      "highlight": "gold"
     },
     {
       "name": "Audio Diary",
