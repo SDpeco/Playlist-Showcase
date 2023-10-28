@@ -64,7 +64,7 @@ body {
 .header-image {
   width: 200;
   height: 100%;
-  box-shadow: -1px 2px 12px rgb(0, 0, 0);
+  box-shadow: 0px 2px 12px rgb(0, 0, 0);
   border-radius: 14px;
 }
 
@@ -100,10 +100,6 @@ body {
   bottom: 16%;
   color: rgba(255, 255, 255, 0.6);
   font-size: 20px;
-}
-
-.fa-arrow-up-right-from-square:hover {
-  color: white;
 }
 
 .flavor {
@@ -193,22 +189,10 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.sorter-btn:hover {
-  filter: brightness(100%);
-}
-
 .selected-btn {
   filter: brightness(100%);
   background: linear-gradient(-45deg, rgb(107, 219, 219), rgb(18, 75, 122));
   border-color: rgb(107, 219, 219);
-}
-
-.selected-btn:hover {
-  filter: brightness(100%);
-}
-
-.unsort-btn:hover {
-  color: white;
 }
 
 .content-separator {
@@ -238,25 +222,19 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(calc(180px - 40px), 1fr));
-  gap: 6px;
+  grid-template-columns: repeat(auto-fill, minmax(calc(210px - 40px), 1fr));
+  gap: 0px;
 }
 
 .grid-item {
   box-sizing: border-box;
-  width: 140px;
+  width: 170px;
   margin: 0;
   margin-bottom: 5px;
   padding: 0;
   z-index: 1;
   cursor: pointer;
   transition: transform 0.1s ease-in-out;
-}
-
-.grid-item:hover {
-  border-radius: 14px;
-  transform: scale(1.2);
-  z-index: 2;
 }
 
 .green-album {
@@ -279,11 +257,6 @@ body {
   z-index: 0;
 }
 
-.album-selected:hover {
-  transform: scale(1);
-  border-radius: 0;
-}
-
 .hidden {
   display: none;
 }
@@ -297,6 +270,10 @@ body {
   .header-image,
   .header-image-container {
     width: 140px;
+  }
+
+  .header-textbox {
+    margin-left: 10px;
   }
 
   .album-title {
@@ -313,7 +290,7 @@ body {
   }
 
   .flavor {
-    left: 206px;
+    left: 196px;
     bottom: 11%;
     font-size: calc(0.3vw + 12px);
   }
@@ -353,9 +330,17 @@ body {
     min-height: 120px;
   }
 
-  .header-image,
   .header-image-container {
     width: 100px;
+  }
+
+  .header-image {
+    width: 100px;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+  }
+
+  .header-textbox {
+    margin-left: 8px;
   }
 
   .album-title {
@@ -372,7 +357,7 @@ body {
   }
 
   .flavor {
-    left: 164px;
+    left: 150px;
     bottom: 4%;
     font-size: calc(0.3vw + 8px);
   }
@@ -383,18 +368,22 @@ body {
 
   .sorters-container {
     width: auto;
-    height: 32px;
+    height: 34px;
     margin-top: 0px;
     margin-left: 23px;
   }
 
   .sorter-btn {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .content-separator {
+    width: 70%;
   }
 
   .grid-container {
-    padding-top: 10px;
+    padding-top: 12px;
   }
 
   .grid {
@@ -405,10 +394,37 @@ body {
     width: 60px;
     border-width: 1px;
   }
+}
+
+@media (hover: hover) {
+  .fa-arrow-up-right-from-square:hover {
+    color: white;
+  }
+
+  .sorter-btn:hover {
+    filter: brightness(100%);
+  }
+
+  .selected-btn:hover {
+    filter: brightness(100%);
+  }
 
   .grid-item:hover {
-    border-radius: 10px;
-    transform: scale(1.4);
+    border-radius: 14px;
+    transform: scale(1.2);
     z-index: 2;
+  }
+
+  .album-selected:hover {
+    transform: scale(1);
+    border-radius: 0;
+  }
+
+  @media screen and (max-width: 400px) {
+    .grid-item:hover {
+      border-radius: 10px;
+      transform: scale(1.4);
+      z-index: 2;
+    }
   }
 }
