@@ -25,10 +25,10 @@ body {
   padding: 0;
   background: linear-gradient(
     to bottom,
-    #3c8fd3 -600px,
+    #3c8fd3 -400px,
     #0b3251,
-    600px,
-    #121212 650px
+    70%,
+    #121212 80%
   );
   background-attachment: fixed;
   overflow: hidden;
@@ -297,6 +297,7 @@ body {
 
   .content {
     margin-top: 14px;
+    margin-bottom: 40px;
   }
 
   .sorters-container {
