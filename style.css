@@ -70,7 +70,7 @@ body {
 
 .header-textbox {
   display: inline-block;
-  width: 60vw;
+  width: 50%;
   height: 80%;
   margin-top: 20px;
   margin-left: 20px;
@@ -129,8 +129,6 @@ body {
 .content {
   width: 100%;
   height: 100%;
-  margin: auto;
-  margin-top: 20px;
   margin-bottom: 0px;
   background-color: rgba(12, 12, 12, 0.3);
   backdrop-filter: blur(10px);
@@ -219,7 +217,7 @@ body {
     rgb(128, 128, 128, 1) 5%,
     rgb(255, 255, 255, 0) 70%
   );
-  width: 50%;
+  width: 60%;
   height: 1px;
   margin-left: 20px;
 }
@@ -309,9 +307,35 @@ body {
     font-size: calc(0.3vw + 12px);
   }
 
+  .fa-arrow-up-right-from-square {
+    bottom: 12%;
+    font-size: 16px;
+  }
+
   .flavor {
-    left: 212px;
+    left: 206px;
+    bottom: 11%;
     font-size: calc(0.3vw + 12px);
+  }
+
+  .content {
+    margin-top: 14px;
+  }
+
+  .sorters-container {
+    width: auto;
+    height: 36px;
+    margin-top: 12px;
+    margin-left: 23px;
+  }
+
+  .sorter-btn {
+    width: 20px;
+    height: 20px;
+  }
+
+  .grid-container {
+    padding-top: 8px;
   }
 
   .grid {
@@ -320,5 +344,71 @@ body {
 
   .grid-item {
     width: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 10%;
+    min-height: 120px;
+  }
+
+  .header-image,
+  .header-image-container {
+    width: 100px;
+  }
+
+  .album-title {
+    font-size: calc(0.8vw + 10px);
+  }
+
+  .album-artist {
+    font-size: calc(0.3vw + 8px);
+  }
+
+  .fa-arrow-up-right-from-square {
+    bottom: 4%;
+    font-size: 14px;
+  }
+
+  .flavor {
+    left: 164px;
+    bottom: 4%;
+    font-size: calc(0.3vw + 8px);
+  }
+
+  .content {
+    margin-top: 24px;
+  }
+
+  .sorters-container {
+    width: auto;
+    height: 32px;
+    margin-top: 0px;
+    margin-left: 23px;
+  }
+
+  .sorter-btn {
+    width: 14px;
+    height: 14px;
+  }
+
+  .grid-container {
+    padding-top: 10px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(calc(100px - 40px), 1fr));
+  }
+
+  .grid-item {
+    width: 60px;
+    border-width: 1px;
+  }
+
+  .grid-item:hover {
+    border-radius: 10px;
+    transform: scale(1.4);
+    z-index: 2;
   }
 }
