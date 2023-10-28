@@ -297,6 +297,7 @@ body {
 
   .content {
     margin-top: 14px;
+    height: -webkit-fill-available;
   }
 
   .sorters-container {
@@ -364,7 +365,7 @@ body {
 
   .content {
     margin-top: 24px;
-    margin-bottom: 40px;
+    height: -webkit-fill-available;
   }
 
   .sorters-container {
