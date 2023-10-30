@@ -9,11 +9,21 @@
 }
 
 html {
-  scrollbar-color: #747474 rgba(0, 0, 0, 0);
-  scrollbar-width: thin;
   margin: 0;
   padding: 0;
-  background-color: #121212;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-corner {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -217,14 +227,14 @@ body {
   margin-right: 20px;
   margin-bottom: 20px;
   grid-template-columns: repeat(auto-fill, minmax(calc(210px - 40px), 1fr));
-  gap: 0px;
+  gap: 2px;
 }
 
 .grid-item {
   box-sizing: border-box;
   width: 170px;
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
   padding: 0;
   z-index: 1;
   cursor: pointer;
@@ -294,6 +304,10 @@ body {
     margin-bottom: 40px;
   }
 
+  .content-separator {
+    width: 70%;
+  }
+
   .sorters-container {
     width: auto;
     height: 36px;
@@ -316,6 +330,7 @@ body {
 
   .grid-item {
     width: 100px;
+    margin-bottom: 10px;
   }
 }
 
@@ -389,6 +404,7 @@ body {
   .grid-item {
     width: 60px;
     border-width: 1px;
+    margin-bottom: 10px;
   }
 }
 
