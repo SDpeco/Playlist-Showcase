@@ -1,6 +1,90 @@
 {
   "albums": [
     {
+      "name": "MK III",
+      "artist": "Emray",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372995f0ae525341ca8d0ebbe",
+      "link": "https://open.spotify.com/album/0ibwngM6lVPTqE2zZcTYpg",
+      "highlight": ""
+    },
+    {
+      "name": "Rave Til U Die!!!",
+      "artist": "psiangel",
+      "image": "https://i.scdn.co/image/ab67616d0000b27342ba18fe5e50ff70fb3d671e",
+      "link": "https://open.spotify.com/album/0MESmoIuemMa69Lb5n2emQ",
+      "highlight": ""
+    },
+    {
+      "name": "malleable",
+      "artist": "rainsdeaf - Feat. #ff85f7",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738b184936dd3537faa7575ddf",
+      "link": "https://open.spotify.com/album/7BNwZIJ5FU0x1sc2TC0TB2",
+      "highlight": ""
+    },
+    {
+      "name": "Apathy",
+      "artist": "Kyoumeni",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a2b6ffaf706afb86b5d205b7",
+      "link": "https://open.spotify.com/album/3ou2pSciVqwQMzG2FIWs8Y",
+      "highlight": ""
+    },
+    {
+      "name": "Gone",
+      "artist": "Aineth",
+      "image": "https://i.scdn.co/image/ab67616d0000b273915b25efb9d0f504cf4580d3",
+      "link": "https://open.spotify.com/album/54TphhDRTy2Tq7795OC7eX",
+      "highlight": "purple"
+    },
+    {
+      "name": "Box Cutter",
+      "artist": "Bkode",
+      "image": "https://i.scdn.co/image/ab67616d0000b273013a6184f7e9a7315fd8971b",
+      "link": "https://open.spotify.com/album/7ChJSeVgYWpPoLRXjjXNoK",
+      "highlight": ""
+    },
+    {
+      "name": "prettycrier",
+      "artist": "healspirit1",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735291566851e9600a6ea20071",
+      "link": "https://open.spotify.com/album/3dreZzhubbMBFAIRmBtJqX",
+      "highlight": ""
+    },
+    {
+      "name": "ICARUS",
+      "artist": "s4dunicorn",
+      "image": "https://i.scdn.co/image/ab67616d0000b273783526d050e570734abfe3fd",
+      "link": "https://open.spotify.com/album/0LjhCSsw70lQoY7jygFJgT",
+      "highlight": ""
+    },
+    {
+      "name": "safety first",
+      "artist": "saves - Feat. lhk",
+      "image": "https://i.scdn.co/image/ab67616d0000b27348a2b57105836350c2127cfd",
+      "link": "https://open.spotify.com/album/2TOCnIVTVCCp82EspgFXYm",
+      "highlight": "purple"
+    },
+    {
+      "name": "Colorful Dreams",
+      "artist": "Foxxy Dekay",
+      "image": "https://i.scdn.co/image/ab67616d0000b27309c85875aad871ab8ec6ff8d",
+      "link": "https://open.spotify.com/album/4veXS9hPqX29MkD0GoqyeD",
+      "highlight": "green"
+    },
+    {
+      "name": "LOST FRAGMENTS",
+      "artist": "Glitchtrode",
+      "image": "https://i.scdn.co/image/ab67616d0000b27304eca1235a1bf0e05b927929",
+      "link": "https://open.spotify.com/album/7Cp8N4d0Yn97CmkdMEvFPc",
+      "highlight": "green"
+    },
+    {
+      "name": "Harakiri Hotline",
+      "artist": "llwll",
+      "image": "https://i.scdn.co/image/ab67616d0000b273aad1a71362d0cad47b9478a2",
+      "link": "https://open.spotify.com/album/0Y5IyzdomuivEImDgd9AXN",
+      "highlight": ""
+    },
+    {
       "name": "Hope Lost",
       "artist": "Jacksonifyer",
       "image": "https://i.scdn.co/image/ab67616d0000b2737833bb71fc31bafb76a10fb8",
@@ -19,7 +103,7 @@
       "artist": "blottter",
       "image": "https://i.scdn.co/image/ab67616d0000b27312b18342b4e30cc392529c0f",
       "link": "https://open.spotify.com/album/70HrhBiTKVNDYzc8dp2LLP",
-      "highlight": "green"
+      "highlight": "gold"
     },
     {
       "name": "MOPEY POPO",
@@ -432,7 +516,7 @@
       "artist": "Govlink",
       "image": "https://i.scdn.co/image/ab67616d0000b273a2fbd1c373f29a1e183785c6",
       "link": "https://open.spotify.com/album/09Ml82XNZoUYUf5e3It5ka",
-      "highlight": "green"
+      "highlight": "gold"
     },
     {
       "name": "Experience",
